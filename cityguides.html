@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Foovel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript">  </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+  
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+.wobble-hor-bottom:hover{
+ animation: wobble-hor-bottom 0.4s both;
+}
+
+</style>
+
+</head>
+<body>
+	
+	<div class="header-top">
+		<div class="container">
+			<div class="head-main">
+				<a href="index.html"><img src="./images/logo.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="header">
+		<div class="container">
+			<div class="head">
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig">
+						<li><a href="about.html">About</a></li>
+						<li><a href="blog.html" >Blog</a></li>
+            <li><a href="cityguides.html" class="active">City Guides</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+			</div>
+			<div class="header-right">
+				<div class="search-bar">
+					<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+					<input type="submit" value="">
+				</div>
+				<ul>
+					<li><a href="https://www.facebook.com/ujjawal.joshi.50"><span class="fb"> </span></a></li>
+					<li><a href="#"><span class="twit"> </span></a></li>
+					<li><a href="#"><span class="pin"> </span></a></li>
+					
+				</ul>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>	
+	
+		<script>
+			$("span.menu").click(function(){
+				$(" ul.navig").slideToggle("slow" , function(){
+				});
+			});
+		</script>
+<div class="container">
+  <p style="text-align:center;font-size:300%;font-weight: bold">Food Travel Guides</p>
+  <p style="text-align:center;font-size:150%">These city travel guides will help you eat like a local!</p>
+</div>
+
+<div class="container-fluid">
+<div class="row">
+              <a href="amaan.html">
+              <div class="col-md-4 abt-left1">
+              <img src="images/amaan.jpg" alt="" class="wobble-hor-bottom"/ >
+              <div style="position: absolute;bottom: 6%;left:5%;color: white;">
+              <h3 style="font-weight: bolder;">Amman</h3>
+                <h4>If you love Arabic food, warm friendly hospitality, and.....</h4>
+              </div>
+              </div>
+              </a>
+
+              <a href="bangkok.html">
+              <div class="col-md-4 abt-left1">
+              <img src="images/bangkok.jpg" alt="" class="wobble-hor-bottom"/ >
+              <div style="position: absolute;bottom: 6%;left:5%;color: white;">
+              <h3 style="font-weight: bolder;">Bangkok</h3>
+                <h4>If you travel for food, this Bangkok travel guide for food.....</h4>
+              </div>
+              </div>
+              </a>
+            
+              <a href="hongkong.html">
+              <div class="col-md-4 abt-left1">
+              <img src="images/hongkong.jpg" alt="" class="wobble-hor-bottom"/ >
+              <div style="position: absolute;bottom: 6%;left:5%;color: white;">
+              <h3 style="font-weight: bolder;">Hong Kong</h3>
+                <h4>In this Hong Kong Travel Guide for Food Lovers you’ll find personal.....</h4>
+              </div>
+              </div>
+              </a>
+            </div>
+
+            <br>
+
+            <div class="row">
+              <a href="singapore.html">
+              <div class="col-md-4 abt-left1">
+              <img src="images/singapore.jpg" alt="" class="wobble-hor-bottom"/ >
+              <div style="position: absolute;bottom: 6%;left:5%;color: white;">
+              <h3 style="font-weight: bolder;">Singapore</h3>
+                <h4>Singapore is a little island city-state on the bottom.....</h4>
+              </div>
+              </div>
+              </a>
+
+            
+
+              <a href="stockholm.html">
+              <div class="col-md-4 abt-left1">
+              <img src="images/stockholm.jpg" alt="" class="wobble-hor-bottom"/ >
+              <div style="position: absolute;bottom: 6%;left:5%;color: white;">
+              <h3 style="font-weight: bolder;">Stockholm</h3>
+                <h4>In this Stockholm travel guide you’ll find personal tips and useful.....</h4>
+              </div>
+              </div>
+              </a>
+            
+            <a href="mexico.html">
+              <div class="col-md-4 abt-left1">
+              <img src="images/mexico.jpg" alt="" class="wobble-hor-bottom"/ >
+              <div style="position: absolute;bottom: 6%;left:5%;color: white;">
+              <h3 style="font-weight: bolder;">Mexico City</h3>
+                <h4>Mexico City is a sprawling food paradise......</h4>
+              </div>
+              </div>
+            </a>
+            </div>
+<br>
+
+              <div class="row">
+              <a href="muscat.html">
+              <div class="col-md-4 abt-left1">
+              <img src="images/muscat.jpg" alt="" class="wobble-hor-bottom"/ >
+              <div style="position: absolute;bottom: 6%;left:5%;color: white;">
+              <h3 style="font-weight: bolder;">Muscat</h3>
+                <h4>In this Muscat travel guide, I’m going to share with you.....</h4>
+              </div>
+              </div>
+              </a>
+
+            
+
+              <a href="india.html">
+              <div class="col-md-4 abt-left1">
+              <img src="images/india.jpg" alt="" class="wobble-hor-bottom"/ >
+              <div style="position: absolute;bottom: 6%;left:5%;color: white;">
+              <h3 style="font-weight: bolder;">India</h3>
+                <h4>India street food is as exciting as it is mouthwatering....</h4>
+              </div>
+              </div>
+            </a>
+
+            
+              <a href="jakarta.html">
+              <div class="col-md-4 abt-left1">
+              <img src="images/jakarta.jpg" alt="" class="wobble-hor-bottom"/ >
+              <div style="position: absolute;bottom: 6%;left:5%;color: white;">
+              <h3 style="font-weight: bolder;">Jakarta</h3>
+                <h4>Jakarta is rarely a city travelers are enthusiastic about.....</h4>
+              </div>
+              </div>
+              </a>
+            </div>
+            <br>
+            <br>
+
+          </div>
+
+
+
+  <div class="footer">
+    <div class="container-fluid">
+      <div class="footer-text">
+        <div class="row">
+        <div class="col-md-4">
+        <a href="index.html"><img src="./images/logo1.png" alt="Foovels" style="width:260px;padding:3em" /></a>
+        </div>
+        <div class="col-md-4">
+        <ul style="list-style-type:none;">
+        <h4>Start Here </h4>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cityguides.html">City Guides</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+        
+        <div class="col-md-4">
+          <ul class="list-inline" style="list-style-type:none;font-weight: bold;font-size: 22px;">
+        <h3>Get in Touch</h3>
+        <li><a href="https://www.facebook.com" class="fa fa-facebook-f"></a></li>
+        <li><a href="https://www.instagram.com" class="fa fa-instagram"></a></li>
+        <li><a href="https://plus.google.com" class="fa fa-google-plus"></a></li>
+        <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+       
+	
+</body>
+</html>

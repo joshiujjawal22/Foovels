@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Foovel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	
+	<div class="header-top">
+		<div class="container">
+			<div class="head-main">
+				<a href="index.html"><img src="./images/logo.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="header">
+		<div class="container">
+			<div class="head">
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig">
+						<li><a href="about.html" >About</a></li>
+						<li><a href="blog.html" >Blog</a></li>
+            <li><a href="cityguides.html">City Guides</a></li>
+						<li><a href="contact.html" class="active">Contact</a></li>
+					</ul>
+			</div>
+			<div class="header-right">
+				<div class="search-bar">
+					<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+					<input type="submit" value="">
+				</div>
+				<ul>
+					<li><a href="https://www.facebook.com/ujjawal.joshi.50"><span class="fb"> </span></a></li>
+					<li><a href="#"><span class="twit"> </span></a></li>
+					<li><a href="#"><span class="pin"> </span></a></li>
+					
+				</ul>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>	
+	
+		<script>
+			$("span.menu").click(function(){
+				$(" ul.navig").slideToggle("slow" , function(){
+				});
+			});
+		</script>
+	
+	<div class="contact">
+		<div class="container">
+			<div class="contact-top heading">
+				<h3>CONTACT</h3>
+			</div>
+			<div class="contact-bottom">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6386.502969800514!2d76.65699993276408!3d30.51447653298567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc32344a6e2d7%3A0x81b346dee91799ca!2sChitkara+University!5e0!3m2!1sen!2sin!4v1548784013021" width="600" height="450" frameborder="0;" style="border:0" allowfullscreen  ></iframe>
+				<div class="contact-text">
+					<div class="col-md-4 contact-left">
+						<p>Before contacting me, We would appreciate it if you would first take a look at our page refer to our City Guides for city tips.That being said, if you have any questions, We would love to hear from you, and We will do our best to get back with you as soon as possible.</p>
+						<div class="address">
+							<h4>Address</h4>
+							<p>Chitkara University 
+							<span>Rajpura</span>
+							Punjab</p>
+						</div>
+					</div>	
+					<div class="col-md-8 contact-right">
+						<form>
+						<input placeholder="Name" type="text" class="form-control" required>
+						<br>
+						<input placeholder="Email" type="text" class="form-control" required>
+						<textarea placeholder="Message" class="form-control" required></textarea>
+							<div class="submit-btn">
+								
+									<input type="submit" value="SUBMIT">
+								</form>
+							</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+    <div class="container-fluid">
+      <div class="footer-text">
+        <div class="row">
+        <div class="col-md-4">
+        <a href="index.html"><img src="./images/logo1.png" alt="Foovels" style="width:260px;padding:3em" /></a>
+        </div>
+        <div class="col-md-4">
+        <ul style="list-style-type:none;">
+        <h4>Start Here </h4>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cityguides.html">City Guides</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+        
+        <div class="col-md-4">
+          <ul class="list-inline" style="list-style-type:none;font-weight: bold;font-size: 22px;">
+        <h3>Get in Touch</h3>
+        <li><a href="https://www.facebook.com" class="fa fa-facebook-f"></a></li>
+        <li><a href="https://www.instagram.com" class="fa fa-instagram"></a></li>
+        <li><a href="https://plus.google.com" class="fa fa-google-plus"></a></li>
+        <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+        
+       
+	
+</body>
+</html>

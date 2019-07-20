@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Foovel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript">  </script>
+
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<style type="text/css">
+  @keyframes rotate-top {
+  100% {
+    
+            transform: rotateY(360deg);
+    
+            transform-origin: center;
+  }
+}
+.rotate-top:hover{
+  
+          animation: rotate-top 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+</style>
+</head>
+<body ng-app="">
+	
+	<div class="header-top">
+		<div class="container">
+			<div class="head-main">
+				<a href="index.html"><img src="./images/logo.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="header">
+		<div class="container">
+			<div class="head">
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig">
+						<li><a href="about.html">About</a></li>
+						<li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="cityguides.html">City Guides</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+			</div>
+			<div class="header-right">
+				<div class="search-bar">
+					<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+					<input type="submit" value="">
+				</div>
+				<ul>
+					<li><a href="https://www.facebook.com/ujjawal.joshi.50"><span class="fb"> </span></a></li>
+					<li><a href="#"><span class="twit"> </span></a></li>
+					<li><a href="#"><span class="pin"> </span></a></li>
+					
+				</ul>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>	
+	
+		<script>
+			$("span.menu").click(function(){
+				$(" ul.navig").slideToggle("slow" , function(){
+				});
+			});
+		</script>
+	
+
+	
+	<div class="gallery">
+		<div class="container">
+			<div class="gallery-top heading">
+				<h3>OUR GALLERY</h3>
+			</div>
+		</div>
+	</div>
+            <div class="container-fluid">
+            <div class="row">
+
+              <div class="col-md-4 abt-left1">
+              <img src="images/khmu.jpg" alt="" class="rotate-top"/ >
+              <h3>Authentic Village Food and Life with the Khmu People in Laos</h3>
+                <p>If you are going to travel so far from home, then why not do it for a mind-blowing new experience?The next time life gives you a chance to explore, We encourage you to spend some time pushing personal boundaries.</p>
+              </div>
+
+            
+
+
+              <div class="col-md-4 abt-left1">
+                <img src="images/laosfood.jpg" class="rotate-top"/>
+                <h3>Laos Food – One of The Best Laotian Dishes You Need to Eat</h3>
+                <p>Laos food is vibrant, colorful, packed with herbs and chilies, and the combinations of ingredients are guaranteed to thrill your taste-buds. Although the food of Laos, or Laotian food, is making waves across the world.</p>
+              </div>
+            
+            
+              <div class="col-md-4 abt-left1">
+              <img src="images/flight.jpg" alt="" class="rotate-top"/>
+              <h3> Flight : Lufthansa – Stockholm to Barcelona</h3>
+                <p>On the first leg, there were no options for the airplane food, but they served everyone the same thing. They called it a light breakfast, and on the tray was a croissant, a muffin, fruit, some cheeses, and a selection of different cold cut meats. The meats and cheese were pretty good.</p>
+              </div>
+            </div>
+
+              <div class="row">
+              <div class="col-md-4 abt-left1" >
+              <img src="images/kewadatshi.jpg" alt="" class="rotate-top"/>
+              <h3> Kewa datshi is potatoes and Bhutanese cheese.</h3>
+                <p>
+                  Kewa is potato, so kewa datshi is potatoes and Bhutanese cheese. It surprised me by how similar kewa datshi is to a dish similar to scalloped potatoes.The potatoes are typically sliced into thin pieces, then sautéed down with cheese and lots of butter. Sometimes cooks will toss in a few chilies or tomatoes, but usually, this is a Bhutanese dish that’s pretty mild, but just focuses on potatoes and cheese.</p>
+              </div>
+              
+            
+              <div class="col-md-4 abt-left1">
+                <img src="images/shakampaa.jpg" alt="" class="rotate-top" />
+                <h3>Wonderful Bhutanese food of dried beef cooked with dried chilies</h3>
+                <p>During my month staying in Bhutan, shakam paa quickly became one of our favorite protein dishes of choice. Again, the beef is slightly chewy from being dried and preserved, and it’s combined with lots of dry chilies.One thing we loved about Bhutanese cooking is how the chilies are just tossed in whole — don’t worry about slicing things up and making them look pretty — you get the whole chilies in Bhutan, amazing.</p>
+              </div>
+
+              <div class="col-md-4 abt-left1">
+                <img src="images/emadatshi.jpg" class="rotate-top" />
+                <h3>Ema Datshi, which is chilies and cheese.</h3>
+                <p>You’ll eat ema datshi not only everyday when you’re in Bhutan, but likely for just about every meal when you’re in Bhutan. The chilies, which can be either fresh green chilies or dry red chilies, are sliced lengthwise, and cooked with datshi, which is local Bhutanese cheese, and plenty of butter for good measure.</p>
+              </div>
+              </div>
+
+
+
+               <div class="row">
+
+              <div class="col-md-4 abt-left1">
+              <img src="images/grilledchicken.jpg" alt="" class="rotate-top"/ >
+              <h3>Ayam Taliwang: Life-Changing Grilled Chicken in Indonesia</h3>
+                <p>If you love spicy, there are a lot of incredibly spicy foods to eat when you’re in Indonesia. But there was one dish that topped them all in the spicy department for me.When We were in Jakarta, many people recommended We try a type of Indonesian grilled chicken dish, called Ayam Bakar Taliwang, mentioning “since you love spicy food, you’re going to love it.”</p>
+              </div>
+
+            
+
+
+              <div class="col-md-4 abt-left1">
+                <img src="images/reindeersteak.jpg" class="rotate-top"/>
+                <h3> Reindeer Steak at Restaurant Pelikan in Stockholm</h3>
+                <p>One of the reasons We love to travel so much is to taste local foods, and I also love nothing more than trying something We’ve never tried before.When We noticed the reindeer steak on the menu at Restaurant Pelikan, just like the råbiff, we absolutely had to go for it.</p>
+              </div>
+            
+            
+              <div class="col-md-4 abt-left1">
+              <img src="images/squid.jpg" alt="" class="rotate-top"/>
+              <h3> La Boqueria Barcelona: Incredible Food You Don’t Want to Miss</h3>
+                <p>La Boqueria is a famous public market in Barcelona, and if you’re a food lover it’s a pilgrimage worthy destination.Walking around the market, you’ll discover an incredibly quantity and variety of fresh meats and produce, ingredients from around Catalonia and throughout Spain, as well as a never ending streams of tapas calling your name.</p>
+              </div>
+            </div>
+
+
+<div class="row">
+
+              <div class="col-md-4 abt-left1">
+              <img src="images/mayak.jpg" alt="" class="rotate-top"/ >
+              <h3>Mayak gimbap – rice rolls(Korean Food)</h3>
+                <p>Gimbap is among the essential list of Korean foods to eat, rice and a few pickled veggies packed into seaweed, rolled up and sliced into bite sized pieces.Gwangjang Market is famous throughout Korea for vendors that sell Mayak Gimbap, which literally translate to narcotic rice rolls (seriously), and if you could only choose one thing to eat when you’re there, this is what we would recommend.</p>
+              </div>
+
+            
+
+
+              <div class="col-md-4 abt-left1">
+                <img src="images/mungbeanpancake.jpg" class="rotate-top"/>
+                <h3> Bindaetteok – mung bean pancake(Korean Pancakes)</h3>
+                <p>Among all the delicious Korean food available, Gwangjang Market is particularly famous throughout Seoul for the mung bean pancakes known as bindaetteok.There are some extremely famous stalls in the market, some good info here, but if you just walk around you’ll see dozens of stalls in the center of the market selling this attractive shallow oil fried delicacy.</p>
+              </div>
+            
+            
+              <div class="col-md-4 abt-left1">
+              <img src="images/soondae.jpg" alt="" class="rotate-top"/>
+              <h3> Soondae (Sundae) – blood sausage</h3>
+                <p>I’ll admit, they may be a little scary in appearance (and description of what they contain), but don’t let that stop you from ordering a plate of Korean soondae, blood sausage.The Korean version of blood sausage is remarkably juicy and moist, partly because it contains a mixture of blood and a good amount of sticky and soft mung bean noodles or sticky rice.</p>
+              </div>
+            </div>
+            <!--
+
+            <a href="#" style="text-decoration-style: none" > <h3 class="text-center"> <span class="label label-primary">For More <input type="checkbox" ng-model="more"></span></h3></a>
+
+
+            <div class="row" style="display: none;" ng-show="more" >
+
+              <div class="col-md-4 abt-left1">
+              <img src="images/mayak.jpg" alt="" class="rotate-top"/ >
+              <h3>Mayak gimbap – rice rolls(Korean Food)</h3>
+                <p>Gimbap is among the essential list of Korean foods to eat, rice and a few pickled veggies packed into seaweed, rolled up and sliced into bite sized pieces.Gwangjang Market is famous throughout Korea for vendors that sell Mayak Gimbap, which literally translate to narcotic rice rolls (seriously), and if you could only choose one thing to eat when you’re there, this is what I would recommend.</p>
+              </div>
+
+            
+
+
+              <div class="col-md-4 abt-left1">
+                <img src="images/mungbeanpancake.jpg" class="rotate-top"/>
+                <h3> Bindaetteok – mung bean pancake(Korean Pancakes)</h3>
+                <p>Among all the delicious Korean food available, Gwangjang Market is particularly famous throughout Seoul for the mung bean pancakes known as bindaetteok.There are some extremely famous stalls in the market, some good info here, but if you just walk around you’ll see dozens of stalls in the center of the market selling this attractive shallow oil fried delicacy.</p>
+              </div>
+            
+            
+              <div class="col-md-4 abt-left1">
+              <img src="images/soondae.jpg" alt="" class="rotate-top"/>
+              <h3> Soondae (Sundae) – blood sausage</h3>
+                <p>I’ll admit, they may be a little scary in appearance (and description of what they contain), but don’t let that stop you from ordering a plate of Korean soondae, blood sausage.The Korean version of blood sausage is remarkably juicy and moist, partly because it contains a mixture of blood and a good amount of sticky and soft mung bean noodles or sticky rice.</p>
+              </div>
+            </div>
+          -->
+
+
+            </div>
+
+            				
+		
+       
+
+
+<div class="footer">
+    <div class="container-fluid">
+      <div class="footer-text">
+        <div class="row">
+        <div class="col-md-4">
+        <a href="index.html"><img src="./images/logo1.png" alt="Foovels" style="width:260px;padding:3em" /></a>
+        </div>
+        <div class="col-md-4">
+        <ul style="list-style-type:none;">
+        <h4>Start Here </h4>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cityguides.html">City Guides</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+        
+        <div class="col-md-4">
+          <ul class="list-inline" style="list-style-type:none;font-weight: bold;font-size: 22px;">
+        <h3>Get in Touch</h3>
+        <li><a href="https://www.facebook.com" class="fa fa-facebook-f"></a></li>
+        <li><a href="https://www.instagram.com" class="fa fa-instagram"></a></li>
+        <li><a href="https://plus.google.com" class="fa fa-google-plus"></a></li>
+        <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+  
+</body>
+</html>
